@@ -5,9 +5,10 @@ $primary-color: #1d1d1d;
 //common
 @import 'common/reset';
 @import 'common/header';
-// @import 'common/footer';
+@import 'common/footer';
 
 // //main
+@import 'main/main';
 // @import 'main/visual';
 // @import 'main/vids';
 // @import 'main/pics';

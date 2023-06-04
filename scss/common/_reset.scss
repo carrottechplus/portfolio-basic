@@ -5,6 +5,7 @@
 	color: #101010;
 	font-size: 16px;
 	font-family: 'Arial', sans-serif;
+	word-break: break-word;
 }
 
 ul,
@@ -25,4 +26,13 @@ button {
 
 body {
 	background: #ede8e6;
+}
+.text_hidden {
+	position: absolute;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
 }

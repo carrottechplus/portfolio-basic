@@ -2,7 +2,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	color: #1d1d1d;
+	color: #101010;
+	font-size: 16px;
+	font-family: 'Arial', sans-serif;
 }
 
 ul,
@@ -13,4 +15,14 @@ li {
 
 a {
 	text-decoration: none;
+}
+
+button {
+	border: 0;
+	background: transparent;
+	cursor: pointer;
+}
+
+body {
+	background: #ede8e6;
 }

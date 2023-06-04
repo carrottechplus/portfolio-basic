@@ -10,21 +10,23 @@
 </head>
 
 <body>
-  <header>
-    <h1 class="logo"><a href="#">SPACES</a></h1>
-    <nav>
-      <ul class="gnb">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Our events</a></li>
-        <li><a href="#">Road map</a></li>
-      </ul>
-    </nav>
-    <div class="nav-side">
-      <a href="#">Support</a>
-      <a href="#">CONNECT WITH US</a>
-    </div>
+  <header id="header">
+    <section class="header_wrap">
+      <h1 class="logo"><a href="#">SPACES</a></h1>
+      <nav>
+        <ul class="gnb">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our events</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Road map</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+      </nav>
+      <div class="nav-side">
+        <a href="#" class="nav_btn__pop">Support</a>
+        <a href="#" class="nav_btn__pop">CONNECT <br>WITH US</a>
+      </div>
+    </section>
   </header>
   <section class="intro_visual_wrap">
     <div class="intro_visual">
@@ -42,24 +44,35 @@
         </span>
       </p>
     </div>
-    <div class="intro_creator">
-      <div class="intro_creator__info">
-        <img src="" alt="">
-        <span class="creator_name">Darrell<br>Stevard</span>
-        <span class="creator_duty">Chief Architect</span>
+    <div class="intro_profile">
+      <div class="intro_profile__zone">
+        <img src="img/person.jpeg" alt="">
+        <div class="intro_profile__info">
+          <p class="intro_profile__info--name">Darrell<br>Steward</p>
+          <p class="intro_profile__info--duty">Chief Architect</p>
+        </div>
       </div>
-      <p class="intro_creator__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptates distinctio
-        laboriosam voluptate dolore dignissimos eveniet.</p>
+      <p class="intro_profile__desc">
+        <span>Spaces Institute for Architec-ture and Design was</span> <br>founded in 2009 by the
+        philanthropist Darrell Steward, with mission to
+        change physical, cultural landscapes of German cities. The Institute promotes positive changes and creates new
+        trends
+      </p>
     </div>
   </section>
   <section>
     <div class="work_category_wrap">
       <div class="category_contents">
-        <p class="category_contents__img"><img src="" alt=""></p>
+        <ul class="category_contents__bg">
+          <li class="on"><img src="img/pic1.jpg" alt=""></li>
+          <li class=""><img src="img/pic2.jpg" alt=""></li>
+          <li class=""><img src="img/pic3.jpg" alt=""></li>
+          <li class=""><img src="img/pic4.jpg" alt=""></li>
+        </ul>
         <ul class="category_contents__box">
-          <li>
-            <img src="" alt="" class="category_img__thumb">
-            <span class="category_title">FLEXIBLE</span>
+          <li class="on">
+            <img src="img/pic1.jpg" alt="" class="category_img__thumb">
+            <p class="category_title">FLEXIBLE</p>
             <p class="category_desc">
               Architectural firm focused on the creating strong, beautiful buildings with spaces that are flexible, is
               beautiful, and
@@ -67,8 +80,8 @@
             </p>
           </li>
           <li>
-            <img src="" alt="" class="category_img__thumb">
-            <span class="category_title">SPACES</span>
+            <img src="img/pic2.jpg" alt="" class="category_img__thumb">
+            <p class="category_title">SPACES</p>
             <p class="category_desc">
               Gomez-Alvarez talked about his connection to the building itself. After visiting the facility for the
               first
@@ -77,8 +90,8 @@
             </p>
           </li>
           <li>
-            <img src="" alt="" class="category_img__thumb">
-            <span class="category_title">INSTITUTE</span>
+            <img src="img/pic3.jpg" alt="" class="category_img__thumb">
+            <p class="category_title">INSTITUTE</p>
             <p class="category_desc">
               It’s modern, designed for a future. It’s very technological. You have wi-fi and video, a big screen and a
               window in each
@@ -86,8 +99,8 @@
             </p>
           </li>
           <li>
-            <img src="" alt="" class="category_img__thumb">
-            <span class="category_title">MODERN</span>
+            <img src="img/pic4.jpg" alt="" class="category_img__thumb">
+            <p class="category_title">MODERN</p>
             <p class="category_desc">
               Chicago-based Designers was the lead designer of the building, led by Will Radford and Matt Trott. They
               wanted
@@ -98,46 +111,52 @@
       </div>
 
       <ul class="category_menu">
-        <li><button type="button">Flexible</button></li>
+        <li class="on"><button type="button">Flexible</button></li>
         <li><button type="button">Spaces</button></li>
         <li><button type="button">Institute</button></li>
         <li><button type="button">Modern</button></li>
       </ul>
     </div>
   </section>
-  <section>
-    <p class="title">
-      UDI ACTIVITY
-    </p>
-    <p class="title">
-      <span>WITH</span> EVENTS
-    </p>
-    <p class="title_right">Programs include Master of Architecture (M Arch), Specialist of Landscape Architecture, with
-      Designer of Science in
-      Design, was Master of Arts
-    </p>
-    <ul>
-      <li>
-        <p><img src="" alt=""></p>
-        <div>
-          <span>01</span>
-          <p>In a leading position in the field of university architectural practice, the modern institute</p>
-        </div>
-      </li>
-      <li>
-        <p><img src="" alt=""></p>
-        <div>
-          <span>02</span>
-          <p>Work with a cross-section of local residents, business people and government leaders</p>
-        </div>
-      </li>
-      <li>
-        <p><img src="" alt=""></p>
-        <div>
-          THE FIRST SNAP OF GREEN IS STIRRING, THE BIRDS ARE CHIRPING AND YOU CAN SEE A SOFT CARPET OF GOLDEN FUR DRAPED
-        </div>
-      </li>
-    </ul>
+  <section class="event_wrap">
+    <div class="inner">
+      <p class="event_title">
+        <span class="thick">
+          UDI ACTIVITY
+        </span>
+        <span class="thick">
+          <span>WITH</span> EVENTS
+        </span>
+      </p>
+      <p class="title_right">Programs include Master of Architecture (M Arch), Specialist of Landscape Architecture,
+        with
+        Designer of Science in
+        Design, was Master of Arts
+      </p>
+      <ul class="event_content">
+        <li class="event_item event_item__first">
+          <p class="event_img"><img src="img/pic4.jpg" alt=""></p>
+          <div>
+            <span>01</span>
+            <p>In a leading position in the field of university architectural practice, the modern institute</p>
+          </div>
+        </li>
+        <li class="event_item event_item__second">
+          <p class="event_img"><img src="img/pic5.jpg" alt=""></p>
+          <div>
+            <span>02</span>
+            <p>Work with a cross-section of local residents, business people and government leaders</p>
+          </div>
+        </li>
+        <li class="event_item event_item__third">
+          <p class="event_img"><img src="img/pic6.jpg" alt=""></p>
+          <div>
+            THE FIRST SNAP OF GREEN IS STIRRING, THE BIRDS ARE CHIRPING AND YOU CAN SEE A SOFT CARPET OF GOLDEN FUR
+            DRAPED
+          </div>
+        </li>
+      </ul>
+    </div>
   </section>
   <section class="history_wrap">
     <ul>

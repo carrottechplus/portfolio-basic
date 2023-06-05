@@ -197,7 +197,9 @@ body {
   padding: 60px 76px;
 }
 .intro_visual_zone .intro_visual_wrap .intro_visual__title {
+  position: relative;
   padding-top: 60px;
+  z-index: 1;
 }
 .intro_visual_zone .intro_visual_wrap .intro_visual__title span {
   display: block;
@@ -218,7 +220,7 @@ body {
   right: 450px;
   width: 112px;
   height: 520px;
-  background: url(../img/pic4.jpg) no-repeat left top;
+  background: url(../img/pic1.jpg) no-repeat left top;
   background-size: cover;
   overflow: hidden;
 }
@@ -242,7 +244,7 @@ body {
   right: 76px;
   width: 335px;
   height: 632px;
-  background: url(../img/pic4.jpg) no-repeat center top;
+  background: url(../img/pic1.jpg) no-repeat center top;
   background-size: cover;
   overflow: hidden;
 }

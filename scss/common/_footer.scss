@@ -1,6 +1,6 @@
 .footer {
 	margin-top: 182px;
-	padding: 0 15%;
+	padding: 0 10%;
 
 	.inner {
 		padding: 70px 76px;
@@ -91,6 +91,11 @@
 			border: 1px solid #c6c3c0;
 			background: transparent;
 			margin-right: 16px;
+			text-align: center;
+			i {
+				font-size: 20px;
+				line-height: 38px;
+			}
 		}
 	}
 }

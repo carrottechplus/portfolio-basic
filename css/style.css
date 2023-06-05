@@ -42,7 +42,7 @@ body {
 }
 
 #header {
-  padding: 0 15%;
+  padding: 0 10%;
 }
 
 .header_wrap {
@@ -102,7 +102,7 @@ body {
 
 .footer {
   margin-top: 182px;
-  padding: 0 15%;
+  padding: 0 10%;
 }
 .footer .inner {
   padding: 70px 76px;
@@ -187,10 +187,15 @@ body {
   border: 1px solid #c6c3c0;
   background: transparent;
   margin-right: 16px;
+  text-align: center;
+}
+.footer_newsletter .sns_list li i {
+  font-size: 20px;
+  line-height: 38px;
 }
 
 .intro_visual_zone {
-  padding: 0 15%;
+  padding: 0 10%;
 }
 .intro_visual_zone .intro_visual_wrap {
   position: relative;
@@ -377,7 +382,7 @@ body {
 
 .work_category_wrap {
   margin-top: 128px;
-  padding: 0 15%;
+  padding: 0 10%;
 }
 .work_category_wrap .category_contents {
   position: relative;
@@ -472,7 +477,7 @@ body {
 
 .event_wrap {
   margin-top: 128px;
-  padding: 0 15%;
+  padding: 0 10%;
 }
 .event_wrap .inner {
   padding-top: 75px;
@@ -589,7 +594,7 @@ body {
 }
 .history_wrap .inner {
   position: relative;
-  padding: 0 15%;
+  padding: 0 10%;
 }
 .history_wrap .inner::before {
   position: absolute;
